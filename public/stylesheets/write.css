@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  html,body{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.btn770{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 4vw;
+    margin-top: -4vw;
+    font-size: 1.6vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gilroy;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    background: linear-gradient(80deg,#1EC1E3, #7577EC ,#F903FE);
+  }
+
+  .btn771{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 4vw;
+    margin-top: -4vw;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gilroy;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(80deg,#1EC1E3, #7577EC ,#F903FE);
+  }
+  .blog121{
+    font-family: gilroy;
+    font-size: 1.4vw;
+    margin-left: 20vw;
+  }

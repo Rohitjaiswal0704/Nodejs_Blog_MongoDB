@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.video120{
+    width: 100vw;
+    max-height: 100vh;
+   
+}
+.video121{
+    width: 100vw;
+    height: 5vh;  
+}
+.backbtn25{
+    font-family: gilroy;
+    font-size: 1.6vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    top: 5%;
+    left: 5%;
+}
+.video122{
+    width: 100vw;
+    margin-top: 5vw;
+    min-height: auto;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/stylesheets/lists.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <title><%= title%> | Passport Auth</title>
+        <style>
+            img {
+                width: 100%;
+            }
+
+            .profilepic {
+                width: auto !important;
+                height: 30px !important;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="nav121">
+                 <div class="navleft1">
+                    <h5 class="h1r1">R</h5>
+                     <div class="navsarch1">
+                         <i class="fa-solid fa-magnifying-glass"></i>
+                         <input class="navinputsarch1" type="text" placeholder="Search">
+                     </div>
+                 </div>
+                 <h3 class="navcenter1">Hello  <%= user.username%> 👋</h3>
+               <a class="pp1099" href="/home">Home Page</a>
+        </div>
+        <hr>
+
+           <!--------------------------------------------->
+          
+           <div class="container mt-5 d-flex justify-content-center flex-wrap">
+            <% blogs.forEach((blog) => { %>
+
+            <div class="card w-50 me-3 mb-3" style="width: 18rem" >
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <img
+                            class="profilepic"
+                            src="/uploads/<%= user.avatar%>"
+                            alt=""
+                        />
+                        <%= user.username%>
+                    </h5>
+
+                    <%- blog.blog%>
+
+                </div>
+            </div>
+
+            <% })%>
+    </body>
+</html>

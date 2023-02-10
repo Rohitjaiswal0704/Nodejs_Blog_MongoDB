@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/Navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <nav class="nav12" >
+        <!-- ------------- -->
+                <div class="navleft">
+                    <h5 class="h1r1">R</h5>
+                    <div class="navsarch">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input class="navinputsarch" type="text" placeholder="Search">
+                    </div>
+                </div>
+        <!-- ------------- -->
+                <div class="navcenter">
+                    <a class="navcenter_one" href=""><i  class="fa-solid fa-house "></i></a>
+                   <a class="navcenter_one" href="/video"> <i  class="fa-brands fa-youtube "></i></i></a>
+                    <a class="navcenter_one" href="/image"><i class="fa-regular fa-images"></i></a>
+                    <a class="navcenter_one" href="/write"><i class="fa-solid fa-pen-to-square"></i></a>
+                </div>
+        <!-- ------------- -->
+                <div class="navright">
+                   <a class="navcenter_two" href="/lists"><i class="fa-solid fa-list"></i></a> 
+                    <a class="navcenter_two" href="/signout"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    <a class="navcenter_two" href="/settings"><i class="fa-solid fa-gear"></i></a>
+                   <a class="navcenter_two" href=""><img src="/uploads/<%= user.avatar%>" alt="" ></a>
+                </div>
+        <!-- ------------- -->        
+    </nav>
+ 
+</body>
+</html>
+
+
+
+
+
